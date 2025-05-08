@@ -44,7 +44,9 @@ def main():
             print("Program argument isn't a number!")
     else:
         pascal_triangle(6)
-
+    """if number < 1 || number > 1023 
+            then return error_message 
+       (I don't know what I'm doing) """
 
 if __name__ == '__main__':
     main()
